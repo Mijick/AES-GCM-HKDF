@@ -1,10 +1,13 @@
 //
 //  M_AES_GCM_HKDF_Result.swift
-//  AESGCMHKDF
+//  Mijick-AES-GCM-HKDF
 //
-//  Created by Alina Petrovska on 23.02.2025.
+//  Created by Alina Petrovska
+//    - Mail: alina.petrovska@mijick.com
+//    - GitHub: https://github.com/Mijick
+//    - GitHub: https://github.com/alina-p-k
 //
-
+//  Copyright ©2025 Mijick. All rights reserved.
 /// Represents the final result of the entire encryption process, which includes:
 public struct M_AES_GCM_HKDF_Result {
     /// The result of the HKDF key derivation process, which provides the encryption key used for **AES-GCM**

@@ -1,9 +1,13 @@
 //
 //  M_AESError.swift
-//  AESGCMHKDF
+//  Mijick-AES-GCM-HKDF
 //
-//  Created by Alina Petrovska on 16.02.2025.
+//  Created by Alina Petrovska
+//    - Mail: alina.petrovska@mijick.com
+//    - GitHub: https://github.com/Mijick
+//    - GitHub: https://github.com/alina-p-k
 //
+//  Copyright ©2025 Mijick. All rights reserved.
 
 /// Representing errors that may occur during key derivation, encryption, and decryption processes in the AES-GCM and HKDF cryptographic system.
 public enum M_AESError: Error {
