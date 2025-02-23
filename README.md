@@ -2,11 +2,9 @@
 <p align="center">
    <h1 align="center">AES-GCM-HKDF</h1>
 </p>
-<!--Hero Image-->
+<!--Labels-->
 <p align="center">
-    <picture> 
-      <img alt="MijickTimer Hero" src="https://github.com/Mijick/Assets/blob/main/AES-GCM-HKDF/hero.png" width="100%">
-    </picture>
+    <img alt="Labels" src="https://github.com/Mijick/Assets/blob/main/AES-GCM-HKDF/Labels/labels.svg"/>
 </p>
 
 <!--Text Header-->
@@ -17,16 +15,9 @@
 
 <!--Links: Wiki-->
 <p align="center">
-    <a href="https://link.mijick.com/AES-GCM-HKDF-wiki" rel="nofollow"><b>Framework documentation</b></a>
+    <a href="https://github.com/Mijick/AES-GCM-HKDF/wiki" rel="nofollow"><b>Framework documentation</b></a>
 </p>
-
-<!--Labels-->
-<p align="center">
-    <img alt="Labels" src="https://github.com/Mijick/Assets/blob/main/AES-GCM-HKDF/Labels/labels.svg"/>
-</p>
-
 <br>
-
 <!--Buttons-->
 <p>
     <!--Discord-->
@@ -108,7 +99,7 @@
 
 <!--Description-->
 # ☀️ What Is AES-GCM-HKDF?
-AES-GCM-HKDF is a high-performance Swift library for secure AES-GCM encryption and HKDF key derivation. Designed for end-to-end encryption, key exchange, and data security, it ensures confidentiality and integrity using modern cryptographic standards.
+**AES-GCM-HKDF** is a high-performance Swift library for secure AES-GCM encryption and HKDF key derivation. Designed for end-to-end encryption, key exchange, and data security, it ensures confidentiality and integrity using modern cryptographic standards.
 
 <!--Why description-->
 # ✅ Why AES-GCM-HKDF? 
@@ -130,23 +121,23 @@ To integrate **AES-GCM-HKDF** into your project: <br>
 
 <!--Documentation-->
 # 🚀 How to use it?
-📚 Visit the framework's [documentation](https://link.mijick.com/AES-GCM-HKDF-wiki) to learn how to integrate your project with **AES-GCM-HKDF**. <br>
+📚 Visit the framework's [documentation](https://link.mijick.com/AES-GCM-HKDF/wiki) to learn how to integrate your project with **AES-GCM-HKDF**. <br>
 #### **Available Wiki Guides**
-- [Getting Started](https://github.com/Mijick/MijickGCM-HKDF/wiki/Getting-Started) – Installation & setup instructions.  
-- [Key Agreement (ECDH)](https://github.com/Mijick/MijickGCM-HKDF/wiki/Key-Agreement) – Secure key exchange using elliptic curves.  
-- [HKDF Key Derivation](https://github.com/Mijick/MijickGCM-HKDF/wiki/HKDF-Key-Derivation) – Extracting secure encryption keys.  
-- [AES-GCM Encryption](https://github.com/Mijick/MijickGCM-HKDF/wiki/AES-GCM-Encryption) – Encrypting messages & data securely.  
-- [AES-GCM Decryption](https://github.com/Mijick/MijickGCM-HKDF/wiki/AES-GCM-Decryption) – Decrypting AES-GCM encrypted data.  
-- [API Reference](https://github.com/Mijick/MijickGCM-HKDF/wiki/API-Reference) – Full method descriptions.  
+- [Getting Started](https://github.com/Mijick/AES-GCM-HKDF/wiki/Getting-Started) – Installation & setup instructions.  
+- [Key Agreement (ECDH)](https://github.com/Mijick/AES-GCM-HKDF/wiki/Key-Agreement) – Secure key exchange using elliptic curves.  
+- [HKDF Key Derivation](https://github.com/Mijick/AES-GCM-HKDF/wiki/HKDF-Key-Derivation) – Extracting secure encryption keys.  
+- [AES-GCM Encryption](https://github.com/Mijick/AES-GCM-HKDF/wiki/AES-GCM-Encryption) – Encrypting messages & data securely.  
+- [AES-GCM Decryption](https://github.com/Mijick/AES-GCM-HKDF/wiki/AES-GCM-Decryption) – Decrypting AES-GCM encrypted data.  
+- [API Reference](https://github.com/Mijick/AES-GCM-HKDF/wiki/API-Reference) – Full method descriptions.  
 
 <!--Supported Platforms-->
 # 📲 Supported Platforms
 | **Platform**  | **Minimum Version** |
 |--------------|--------------------|
 | 🏗 **iOS**      | 13.0+              |
-| 💻 **macOS**    | 12.0+              |
-| 📺 **tvOS**     | 15.0+              |
-| ⌚ **watchOS**  | 7.0+               |
+| 💻 **macOS**    | 10.15+              |
+| 📺 **tvOS**     | 13.0+              |
+| ⌚ **watchOS**  | 5.0+               |
 | 🥽 **visionOS** | 1.0+               |
 
 <!--Community-->
@@ -161,10 +152,10 @@ If you would like to contribute, please refer to the [Contribution Guidelines](h
 
 <!--Sponsorship-->
 # 💜 Sponsor our work
-Support our work by [becoming a backer](https://link.mijick.com/buymeacoffee).
+Support our work by [becoming a backer](https://buymeacoffee.com/mijick).
 
 # 📜 License
-This project is licensed under the Apache License. See [LICENSE](https://github.com/Mijick/MijickGCM-HKDF/LICENSE) for details.
+This project is licensed under the Apache License. See [LICENSE](https://github.com/Mijick/AES-GCM-HKDF/LICENSE) for details.
 
 
 
