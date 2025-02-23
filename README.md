@@ -121,7 +121,7 @@ To integrate **AES-GCM-HKDF** into your project: <br>
 
 <!--Documentation-->
 # 🚀 How to use it?
-📚 Visit the framework's [documentation](https://link.mijick.com/AES-GCM-HKDF/wiki) to learn how to integrate your project with **AES-GCM-HKDF**. <br>
+📚 Visit the framework's [documentation](https://github.com/Mijick/AES-GCM-HKDF/wiki) to learn how to integrate your project with **AES-GCM-HKDF**. <br>
 #### **Available Wiki Guides**
 - [Getting Started](https://github.com/Mijick/AES-GCM-HKDF/wiki/Getting-Started) – Installation & setup instructions.  
 - [Key Agreement (ECDH)](https://github.com/Mijick/AES-GCM-HKDF/wiki/Key-Agreement) – Secure key exchange using elliptic curves.  
@@ -135,20 +135,19 @@ To integrate **AES-GCM-HKDF** into your project: <br>
 | **Platform**  | **Minimum Version** |
 |--------------|--------------------|
 | 🏗 **iOS**      | 13.0+              |
-| 💻 **macOS**    | 10.15+              |
+| 💻 **macOS**    | 10.15+             |
 | 📺 **tvOS**     | 13.0+              |
 | ⌚ **watchOS**  | 5.0+               |
 | 🥽 **visionOS** | 1.0+               |
 
 <!--Community-->
 # 🍀 Community
-Join the welcoming community of developers on [Discord](https://link.mijick.com/discord).
+Join the welcoming community of developers on [Discord](https://discord.com/invite/dT5V7nm5SC).
 
 <!--Contribution-->
 # 🌼 Contribute
 To contribute a feature or idea to **AES-GCM-HKDF**, create an [issue](https://github.com/Mijick/AES-GCM-HKDF/issues/new?assignees=FulcrumOne&labels=state%3A+inactive%2C+type%3A+feature&projects=&template=🚀-feature-request.md&title=%5BFREQ%5D) explaining your idea or bring it up on [Discord](https://discord.com/invite/dT5V7nm5SC). <br>
 If you find a bug, please create an [issue](https://github.com/Mijick/AES-GCM-HKDF/issues/new?assignees=FulcrumOne%2C+jay-jay-lama&labels=state%3A+inactive%2C+type%3A+bug&projects=&template=🦟-bug-report.md&title=%5BBUG%5D). <br>
-If you would like to contribute, please refer to the [Contribution Guidelines](https://link.mijick.com/contribution-guidelines).
 
 <!--Sponsorship-->
 # 💜 Sponsor our work
