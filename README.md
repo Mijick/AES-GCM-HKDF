@@ -1,17 +1,15 @@
 
-<p align="center">
-   <h1 align="center">AES-GCM-HKDF</h1>
-</p>
+<!--Header-->
+<h1 align="center">AES-GCM-HKDF</h1>
+
 <!--Labels-->
 <p align="center">
     <img alt="Labels" src="https://github.com/Mijick/Assets/blob/main/AES-GCM-HKDF/Labels/labels.svg"/>
 </p>
 
 <!--Text Header-->
-<p>
-    <h3 align="center">AES encryption made simple</h3>
-    <p align="center">Execute with one line. Keep your code clean.</p>
-</p>
+<h3 align="center">Simple & Secure AES Encryption</h3>
+<p align="center">Encrypt data with a single line of code. Keep your code clean.</p>
 
 <!--Links: Wiki-->
 <p align="center">
@@ -59,7 +57,7 @@
                 HKDF Key Derivation
               </td>
               <td>
-                 Extracts high-entropy keys from shared secrets.
+                 Derives strong encryption keys from shared secrets using HKDF.
               </td>
           </tr>
           <tr>
@@ -99,7 +97,7 @@
 
 <!--Description-->
 # ☀️ What Is AES-GCM-HKDF?
-**AES-GCM-HKDF** is a high-performance Swift library for secure AES-GCM encryption and HKDF key derivation. Designed for end-to-end encryption, key exchange, and data security, it ensures confidentiality and integrity using modern cryptographic standards.
+**AES-GCM-HKDF** is a high-performance Swift library that simplifies AES-GCM encryption and HKDF key derivation. It is designed for end-to-end encryption, secure key exchange, and data protection, ensuring confidentiality and integrity using modern cryptographic standards.
 
 <!--Why description-->
 # ✅ Why AES-GCM-HKDF? 
@@ -154,7 +152,7 @@ If you find a bug, please create an [issue](https://github.com/Mijick/AES-GCM-HK
 Support our work by [becoming a backer](https://buymeacoffee.com/mijick).
 
 # 📜 License
-This project is licensed under the Apache License. See [LICENSE](https://github.com/Mijick/AES-GCM-HKDF/LICENSE) for details.
+This project is licensed under the Apache License. See [LICENSE](https://github.com/Mijick/AES-GCM-HKDF/blob/main/LICENSE) for details.
 
 
 
