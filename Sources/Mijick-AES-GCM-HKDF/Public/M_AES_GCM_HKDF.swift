@@ -1,5 +1,5 @@
 //
-//  M_GCM_HKDF.swift
+//  M_AES_GCM_HKDF.swift
 //
 //
 //  Created by Alina Petrovska on 27.01.2025.
@@ -8,10 +8,10 @@
 import Foundation
 import CryptoKit
 
-public class M_GCM_HKDF { }
+public class M_AES_GCM_HKDF { }
 
 // MARK: Shared Secret
-public extension M_GCM_HKDF {
+public extension M_AES_GCM_HKDF {
     /**
      Computes a shared secret from a key pair using elliptic curve cryptography.
      - Parameters:
@@ -31,7 +31,7 @@ public extension M_GCM_HKDF {
 }
 
 // MARK: Derivation
-public extension M_GCM_HKDF {
+public extension M_AES_GCM_HKDF {
     /**
      Implements the HMAC-based Extract-and-Expand Key Derivation Function (HKDF) as described in [RFC 5869](https://datatracker.ietf.org/doc/html/rfc5869).
         
@@ -67,7 +67,7 @@ public extension M_GCM_HKDF {
 }
 
 // MARK: Encryption
-public extension M_GCM_HKDF {
+public extension M_AES_GCM_HKDF {
     /**
      Performs a secure encryption process using **AES-GCM** with an **HKDF**-derived key.
      
@@ -131,7 +131,7 @@ public extension M_GCM_HKDF {
 }
 
 // MARK: Decryption
-public extension M_GCM_HKDF {
+public extension M_AES_GCM_HKDF {
     /**
      Performs a secure decryption process using **AES-GCM** with an **HKDF**-derived key.
      This method ensures end-to-end secure decryption by combining key agreement, key derivation, and authenticated decryption.

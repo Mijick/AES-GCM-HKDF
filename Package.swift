@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MijickGCM-HKDF",
+    name: "Mijick-AES-GCM-HKDF",
     platforms: [
         .iOS(.v13),
         .macOS(.v12),
@@ -14,15 +14,15 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "MijickGCM-HKDF",
-            targets: ["MijickGCM-HKDF"]),
+            name: "Mijick-AES-GCM-HKDF",
+            targets: ["Mijick-AES-GCM-HKDF"]),
     ],
     targets: [
         .target(
-            name: "MijickGCM-HKDF"),
+            name: "Mijick-AES-GCM-HKDF"),
         .testTarget(
-            name: "MijickGCM-HKDFTests",
-            dependencies: ["MijickGCM-HKDF"]
+            name: "Mijick-AES-GCM-HKDFTests",
+            dependencies: ["Mijick-AES-GCM-HKDF"]
         ),
     ]
 )
