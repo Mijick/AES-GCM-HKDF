@@ -7,9 +7,9 @@ let package = Package(
     name: "Mijick-AES-GCM-HKDF",
     platforms: [
         .iOS(.v13),
-        .macOS(.v12),
-        .tvOS(.v15),
-        .watchOS(.v7),
+        .macOS(.v10_15),
+        .tvOS(.v13),
+        .watchOS(.v5),
         .visionOS(.v1)
     ],
     products: [
