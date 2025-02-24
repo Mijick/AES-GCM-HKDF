@@ -15,21 +15,30 @@ class AES_GCM_Decrypter {
     private let secret: Data
     private let tag: Data
     private let iv: Data
+    private let aad: Data
     private let ciphertext: Data
     
     init(secret: Data, configuration: M_AES_GSM_Configuration) {
         self.secret = secret
         self.tag = configuration.tag
         self.iv = configuration.iv
+        self.aad = configuration.aad
         self.ciphertext = configuration.message
     }
 }
 
 extension AES_GCM_Decrypter {
     func decrypt() throws -> Data {
+        try validate()
         let nonce = try AES.GCM.Nonce(data: iv)
         let box = try AES.GCM.SealedBox(nonce: nonce, ciphertext: ciphertext, tag: tag)
         let key = SymmetricKey(data: secret)
-        return try AES.GCM.open(box, using: key)
+        return try AES.GCM.open(box, using: key, authenticating: aad)
+    }
+}
+
+private extension AES_GCM_Decrypter {
+    func validate() throws {
+        guard !secret.isEmpty else { throw M_AESError.incorrectSecretSize }
     }
 }

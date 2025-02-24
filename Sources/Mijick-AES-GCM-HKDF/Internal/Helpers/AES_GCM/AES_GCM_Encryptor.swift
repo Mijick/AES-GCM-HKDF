@@ -21,15 +21,22 @@ class AES_GCM_Encryptor {
         self.secret = secret
         self.iv = config.iv
         self.message = config.message
-        self.add = config.add
+        self.add = config.aad
     }
 }
 
 extension AES_GCM_Encryptor {
     func encrypt() throws -> AES.GCM.SealedBox {
+        try validate()
         let key = SymmetricKey(data: secret)
         let nonce = try AES.GCM.Nonce(data: iv)
         let sealedBox = try AES.GCM.seal(message, using: key, nonce: nonce, authenticating: add)
         return sealedBox
+    }
+}
+
+private extension AES_GCM_Encryptor {
+    func validate() throws {
+        guard !secret.isEmpty else { throw M_AESError.incorrectSecretSize }
     }
 }

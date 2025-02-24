@@ -7,7 +7,7 @@
 //    - GitHub: https://github.com/Mijick
 //    - GitHub: https://github.com/alina-p-k
 //
-//  Copyright ©2024 Mijick. All rights reserved.
+//  Copyright ©2025 Mijick. All rights reserved.
 
 import Testing
 import CryptoKit

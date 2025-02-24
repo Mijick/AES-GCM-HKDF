@@ -21,23 +21,23 @@ public struct M_AES_GSM_Configuration {
     
     /// Additional authenticated data (AAD) for integrity protection.
     /// Can be empty or randomly initialized with method ``Data/randomAAD()``
-    public let add: Data
+    public let aad: Data
     
     /// The authentication tag **used only for decryption**.
     public let tag: Data
     
     /// Encryption init
-    public init(message: Data, iv: Data, add: Data = .init()) {
+    public init(message: Data, iv: Data, aad: Data = .init()) {
         self.message = message
         self.iv = iv
-        self.add = add
+        self.aad = aad
         self.tag = .init()
     }
     /// Decryption init
     public init(ciperText: Data, tag: Data, iv: Data, add: Data = .init()) {
         self.message = ciperText
         self.iv = iv
-        self.add = add
+        self.aad = add
         self.tag = tag
     }
 }

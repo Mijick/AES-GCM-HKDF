@@ -130,7 +130,7 @@ public extension M_AES_GCM_HKDF {
      */
     static func encrypt(secret: Data, configuration: M_AES_GSM_Configuration) throws -> M_AES_Encryption_Result {
         let result = try AES_GCM_Encryptor(secret: secret, config: configuration).encrypt()
-        return .init(iv: configuration.iv, aad: configuration.add, cipertext: result.ciphertext, tag: result.tag)
+        return .init(iv: configuration.iv, aad: configuration.aad, cipertext: result.ciphertext, tag: result.tag)
     }
 }
 

@@ -35,7 +35,6 @@ public enum M_AESError: Error {
     /// - Important: Use uncompressed elliptic curve points for key exchange.
     case compressedCurvePointsUnsupported
     
-    
     /// The curve point representation has an incorrect length (octet encoding format).
     /// - Important: Ensure that the key uses the correct octet length according to the curve specifications.
     case invalidCurvePointOctetLength
@@ -56,5 +55,8 @@ public enum M_AESError: Error {
     /// A hexadecimal string is improperly formatted or contains invalid characters.
     /// - Important: Ensure the input is a valid hexadecimal string.
     case incorrectHexFormat
+    
+    ///  AES got key of incorrect size
+    case incorrectSecretSize
 }
 
