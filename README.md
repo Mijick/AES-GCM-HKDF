@@ -126,7 +126,6 @@ To integrate **AES-GCM-HKDF** into your project: <br>
 - [HKDF Key Derivation](https://github.com/Mijick/AES-GCM-HKDF/wiki/HKDF-Key-Derivation) – Extracting secure encryption keys.  
 - [AES-GCM Encryption](https://github.com/Mijick/AES-GCM-HKDF/wiki/AES-GCM-Encryption) – Encrypting messages & data securely.  
 - [AES-GCM Decryption](https://github.com/Mijick/AES-GCM-HKDF/wiki/AES-GCM-Decryption) – Decrypting AES-GCM encrypted data.  
-- [API Reference](https://github.com/Mijick/AES-GCM-HKDF/wiki/API-Reference) – Full method descriptions.  
 
 <!--Supported Platforms-->
 # 📲 Supported Platforms
